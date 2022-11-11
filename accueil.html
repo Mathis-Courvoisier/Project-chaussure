@@ -1,100 +1,95 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="app/css/panier.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
-    <link rel="stylesheet" href="app/css/Footer&nav.css"> 
-    <title>Panier</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Créer un site e-commerce</title>
+  <link rel="stylesheet" href="app/css/accueil.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
+  <link rel="stylesheet" href="app/css/Footer&nav.css">  
 </head>
 <body>
-    <!-- Barre de navigation -->
-    <header class="header">
-        <a href="" class="logo">Ecommerce</a>
-        <input class="menu-btn" type="checkbox" id="menu-btn" />
-        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
-        <ul class="menu">
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">Storie</a></li>
-          <li><a href="#">About</a></li>
-          <li>
-            <form>
-              <input type="search" placeholder="Rechercher">
-            </form>
-          </li>
-          <li> <a><i class="far fa-heart"></i></a></li>
-          <li><a><i class="fas fa-shopping-cart"></i></a></li>
-          <li><a href="#">Login</a></li>
-        </ul>
-      </header>
+  <!-- Barre de navigation -->
+  <header class="header">
+    <a href="" class="logo">Ecommerce</a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">Storie</a></li>
+      <li><a href="#">About</a></li>
+      <li>
+        <form>
+          <input type="search" placeholder="Rechercher">
+        </form>
+      </li>
+      <li> <a><i class="far fa-heart"></i></a></li>
+      <li><a><i class="fas fa-shopping-cart"></i></a></li>
+      <li><a href="#">Login</a></li>
+    </ul>
+  </header>
+  <!-- Fin de la barre de navigation -->
+  <br>
+  <!-- Header -->
+   <header class="h">
+     <h1>C'est votre boutique, votre chez-vous.</h1>
+     <button>Naviguer <i class="fas fa-paper-plane"></i></button>
+   </header>
+  <!-- Fin du header -->
 
-    <!-- fin de la nav barre -->
+  <!-- Section principale -->
+  <section class="main">
 
-<h2></h2>
+    <!-- Toutes les cartes -->
 
-    <div class="mere">
+    <div class="cards">
 
-    <div class="parent1">
-        <div class="card">
-            <div class="square"><img src="yeezy.jpeg" alt="img yeezy"></div>
-            <div class="txt_crd">
-                <h3>Adidas Yeezy 700 Azael</h3>
-                <p>EU 42.5/43/44</p>
-                <p>Quantity : 1</p>
-                <p class="price">320€</p>
-            </div>
+      <div class="card">
+        <img src="https://static.nike.com/a/images/f_auto/q_auto:eco/t_PDP_864_v1/0697fd03-09fd-4b3b-be0b-11b009c671d9/short-en-molleton-sportswear-pour-z5Kgjx.jpg">
+        <div class="card-header">
+          <h4 class="title">Short Nike</h4>
+          <h4 class="price">199$</h4>
         </div>
-        <br><div class="trait"></div><br>
-        <div class="card">
-            <div class="square"><img src="newbalance.png" alt="img New Balance"></div>
-            <div class="txt_crd">
-                <h3>New Balance ML725</h3>
-                <p>42/43</p>
-                <p>Quantité : 1</p>
-                <p class="price">99€</p>
-            </div>
+        <div class="card-body">
+          <p>Short moulant pour homme</p>
         </div>
+      </div>
+
+      <div class="card">
+        <img src="https://static.nike.com/a/images/f_auto/q_auto:eco/t_PDP_864_v1/eric5lwitzffpoisq0rj/chaussure-blazer-mid-77-vintage-pour-pMfjs8.jpg">
+        <div class="card-header">
+          <h4 class="title">Paire de chaussures stylées</h4>
+          <h4 class="price">69$</h4>
+        </div>
+        <div class="card-body">
+          <p>Des paires de chaussures stylées pour femme</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="https://static.nike.com/a/images/f_auto/q_auto:eco/t_PDP_864_v1/abb537eb-0e70-4e1f-903e-ec46b8657c0d/short-de-training-en-tissu-fleece-dri-fit-pour-n97b2F.jpg">
+        <div class="card-header">
+          <h4 class="title">Short pour courir</h4>
+          <h4 class="price">39$</h4>
+        </div>
+        <div class="card-body">
+          <p>Sport pour courir en plain air pour homme</p>
+        </div>
+      </div>
+
+     </div>
+    <!-- Fin de toutes les cartes -->
+
+    <!-- Video de presentation -->
+    <div class="video">
+      <iframe src="https://www.youtube.com/embed/2COSkxxOtXY" allowfullscreen></iframe>
     </div>
+    <!-- Fin de la video de presentation -->
+  </section>
+  <!-- Fin de la section principale -->
 
-    <div class="parent2">
-        <h2>Order Summary</h2>
-        <input type="text" placeholder="Enter coupon code here" maxlength="15" >
-        <div class="texte">
-        <p>Subtotal</p>
-        <p>200$</p>
-        </div>
-        <div class="texte">
-        <p>Shopping</p>
-        <p>Caluclated at the next step.</p>
-        </div>
-        <div id="trait2"></div>
-        <div class="texte">
-        <p>Total</p>
-        <p>200$</p>
-        </div>
-        <button id="btn">Continue to checkout</button>
-    </div>
-
-    <div class="parent3">
-        <h2>Order information</h2>
-        <br><div class="trait"></div><br>
-        <p>Return policy</p>
-        <a href="#comment"><button class="btn2">+</button></a>
-        <div id="comment">
-        <p>This is our example return policy which is everything you need to know about our returns.</p>
-        </div>
-        <div class="trait"></div>
-        <p>Shipping options</p><button class="btn2">+</button>
-        <div class="trait"></div>
-        <p>Shipping options</p>
-        <button class="btn2">+</button>
-    </div>
-
-    </div>
-
-    <footer class="footer">
+  <!-- Pied de page -->
+  <footer class="footer">
         <div class="container">
             <div class="row">
                 <div class="footer-col">
@@ -121,10 +116,15 @@
                         <li><a href="">Nous contacter</a></li>
                     </ul>
                 </div>
-              
+                <div class="footer-col">
+                    <h4>Site officiel</h4>
+                    <div class="social_links">
+                        <a href="https://www.brooksrunning.com/" target="_blank"><i class="fa-brands fa-internet-explorer"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
-
+  <!-- Fin du pied de page -->
 </body>
 </html>
