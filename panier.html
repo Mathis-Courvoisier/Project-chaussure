@@ -4,53 +4,56 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/app/css/panier.css">
+    <link rel="stylesheet" href="app/css/panier.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" />
+    <link rel="stylesheet" href="app/css/Footer&nav.css"> 
     <title>Panier</title>
 </head>
 <body>
+    <!-- Barre de navigation -->
+    <header class="header">
+        <a href="" class="logo">Ecommerce</a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">Storie</a></li>
+          <li><a href="#">About</a></li>
+          <li>
+            <form>
+              <input type="search" placeholder="Rechercher">
+            </form>
+          </li>
+          <li> <a><i class="far fa-heart"></i></a></li>
+          <li><a><i class="fas fa-shopping-cart"></i></a></li>
+          <li><a href="#">Login</a></li>
+        </ul>
+      </header>
 
-    <nav>
-        <h1>Login</h1>
-        <div class="onglets">
-          <p class="link">Ecommerce</p>
-          <p class="link">Shop</p>
-          <p class="link">Stories</p>
-          <p class="link">About</p>
-        
-          <form>
-            <input type="search" placeholder="Rechercher">
-          </form>
-  
-          <p><i class="far fa-heart"></i></p>
-          <p><i class="fas fa-shopping-cart"></i></p>
-        </div>
-      </nav>
+    <!-- fin de la nav barre -->
 
-
-    <h2>Your cart</h2>
-    <p>Not ready to checkout ? Continue shopping</p>
-
+<h2></h2>
 
     <div class="mere">
 
     <div class="parent1">
         <div class="card">
-            <div class="square"></div>
+            <div class="square"><img src="yeezy.jpeg" alt="img yeezy"></div>
             <div class="txt_crd">
-                <h3>Men's winter jacket</h3>
-                <p>Size : L</p>
+                <h3>Adidas Yeezy 700 Azael</h3>
+                <p>EU 42.5/43/44</p>
                 <p>Quantity : 1</p>
-                <p class="price">$99</p>
+                <p class="price">320€</p>
             </div>
         </div>
         <br><div class="trait"></div><br>
         <div class="card">
-            <div class="square"></div>
+            <div class="square"><img src="newbalance.png" alt="img New Balance"></div>
             <div class="txt_crd">
-                <h3>Men's winter jacket</h3>
-                <p>Size : L</p>
-                <p>Quantity : 1</p>
-                <p class="price">$99</p>
+                <h3>New Balance ML725</h3>
+                <p>42/43</p>
+                <p>Quantité : 1</p>
+                <p class="price">99€</p>
             </div>
         </div>
     </div>
@@ -63,7 +66,7 @@
         <p>200$</p>
         </div>
         <div class="texte">
-        <p>Shipping</p>
+        <p>Shopping</p>
         <p>Caluclated at the next step.</p>
         </div>
         <div id="trait2"></div>
@@ -91,14 +94,37 @@
 
     </div>
 
-    <footer>
-        <p>&copy; Contactez-nous au 06 98 87 82 00</p>
-        <div class="social-media">
-          <p><i class="fab fa-facebook-f"></i></p>
-          <p><i class="fab fa-twitter"></i></p>
-          <p><i class="fab fa-instagram"></i></p>
-          <p><i class="fab fa-linkedin-in"></i></p>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>News letter</h4>
+                    <input type="text" value="Email adress">
+                </div>
+                <div class="footer-col">
+                    <h4>Shop</h4>
+                    <ul>
+                        <li><a href="https://www.adidas.fr/">Adidas</a></li>
+                        <li><a href="https://www.nike.fr/france/officiel">Nike</a></li>
+                        <li><a href="https://www.balenciaga.com/">Balenciaga</a></li>
+                        <li><a href="https://www.newbalance.fr/">New Balance</a></li>
+                        <li><a href="https://wethenew.com">Yeezy</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Aide</h4>
+                    <ul>
+                        <li><a href="Accueil.html">Centre communication</a></li>
+                        <li><a href="">Vos commandes</a></li>
+                        <li><a href="">Taille de chaussures</a></li>
+                        <li><a href="">Retour & Garantie</a></li>
+                        <li><a href="">Nous contacter</a></li>
+                    </ul>
+                </div>
+              
+            </div>
         </div>
-      </footer>
+    </footer>
+
 </body>
 </html>
