@@ -38,7 +38,6 @@ footer .social-media p{
     justify-content: space-between;
     padding: 20px;
     background-color: #fff;
-    position: sticky;
     top: 0;
   }
   nav h1{
@@ -200,7 +199,6 @@ body{
   margin-left: 0.3rem;
   border-radius: 1rem;
   background-color: rgb(235, 235, 235);
-  position: fixed;
 }
 
 h2{
